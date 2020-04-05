@@ -32,5 +32,13 @@ python3 genre_scraper.py --genre landscape --style impressionism --output_dir fi
 #this works too, gets 3700
 
 #test 3
-python3 genre_scraper.py --genre landscape --style impressionism --output_dir secondrun
+python3 genre_scraper.py --genre landscape --style romanticism --output_dir thirdrun
+#this one is 3702 - so almost the same. Abort
 
+#Conclusion - the style flag doesn't matter at all. Just put genre. Keep thirdrun and rename as landscape
+
+#test 4
+python3 genre_scraper.py --genre mythological-painting --output_dir fourthrun
+
+#test 5
+python3 genre_scraper.py --genre marina --output_dir fifthrun
