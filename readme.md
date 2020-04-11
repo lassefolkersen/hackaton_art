@@ -66,16 +66,25 @@ The following resources will be made available.
 ## Login information
 
 ###Team 1
+
 host IP:  ec2-35-164-169-143.us-west-2.compute.amazonaws.com
+
 Username (root!): ubuntu
+
 Password: g8$7O6#XvVYZ1IsLWnCfbsuP
 
 ###Team 2
+
 host IP:  *(not set up yet)*
+
 Username (root!): ubuntu
+
 Password: *(not set up yet)*
 
 ###Team 3
+
 host IP:  *(not set up yet)*
+
 Username (root!): ubuntu
+
 Password: *(not set up yet)*
