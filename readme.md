@@ -58,6 +58,24 @@ The following resources will be made available.
 1. **Hardware:** SSH-based access to an AWS cloud computer of the t2.medium size, 100 GB storage.
 1. **Standard software**: Ubuntu 18.04 with R and python etc. Also has super-user access, so just install whatever else is needed using *sudo*.
 1. **Genomics data**: In the ~/data folder genomic data from an example-person is found. The *id_613z86871.input_data.zip* file contains all directly measured genotypes. The *simple_format* and *gen* format files contain more extensive imputed information. The json format file contains all derived genetic calculations and may be an alternative source for genetic information. The remaining files are fast-access subsets or non-important information. All are better [described here](https://github.com/lassefolkersen/impute-me/blob/master/README.md#part-1-downloads-descriptions).
-1. **Art repository data**: Large image repositories are available online, and finding the right one may be key to this project. However, two large sets are already pre-loaded on the computer: The [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) data set of 200k aligned portrait images and a web-scrape from wikiart of 5000 impressionist landscape art images, with more details can be found on how to perform similar manual web-scrapes on different genres using this [script](2020-04-02_scraping_images/2020-04-02_scraping_images.R).
+1. **Art repository data**: Large image repositories are available online, and finding the right one may be key to this project. However, two large sets are already pre-loaded on the computer: The [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) data set of 200k aligned portrait images and a web-scrape from wikiart of 10k various art images, with more details can be found on how to perform similar manual web-scrapes on different genres using this [script](2020-04-02_scraping_images/2020-04-02_scraping_images.R).
 1. **Custom software**: Each computer has a pre-configured copy of the impute.me web-analysis server running on shiny. This is for (optional) implementation in work-package 3. The ~/srv folder contains the running code ([from here](https://github.com/lassefolkersen/impute-me)), the ~/programs contains required support software, e.g. impute2 and shapeit. ~/imputations is an empty folder for the queing system were uploaded data will appear.
 
+
+
+## Login information
+
+###Team 1
+host IP:  ec2-35-164-169-143.us-west-2.compute.amazonaws.com
+Username (root!): ubuntu
+Password: g8$7O6#XvVYZ1IsLWnCfbsuP
+
+###Team 2
+host IP:  *(not set up yet)*
+Username (root!): ubuntu
+Password: *(not set up yet)*
+
+###Team 3
+host IP:  *(not set up yet)*
+Username (root!): ubuntu
+Password: *(not set up yet)*

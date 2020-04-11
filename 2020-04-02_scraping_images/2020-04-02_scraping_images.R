@@ -46,3 +46,8 @@ python3 genre_scraper.py --genre marina --output_dir fifthrun
 
 #test 6
 python3 genre_scraper.py --genre wildlife-painting --output_dir sixthrun
+
+
+#test 7
+python3 genre_scraper.py --genre pastorale --output_dir seventhrun
+
