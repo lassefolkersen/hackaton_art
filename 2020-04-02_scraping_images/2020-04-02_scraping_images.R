@@ -42,3 +42,7 @@ python3 genre_scraper.py --genre mythological-painting --output_dir fourthrun
 
 #test 5
 python3 genre_scraper.py --genre marina --output_dir fifthrun
+
+
+#test 6
+python3 genre_scraper.py --genre wildlife-painting --output_dir sixthrun
