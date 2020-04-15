@@ -70,36 +70,9 @@ The following resources will be made available.
 ## Login and setup information
 
 1. Each team get one instance each.
-1. Pick a random one from the list below
+1. Pick a random one from this [google-doc list](https://docs.google.com/document/d/1SxpWxGaoEJ472v4Wscfy56g9CTE0BoILpr6iuWFN_58/edit?usp=sharing). You may leave a comment to say it's taken.
 1. Log in using the info (if in doubt how, then use free [mobaxterm](https://www.youtube.com/watch?v=Diq9-b239vo)).
 1. Immediately change password using command `sudo passwd ubuntu`. Choose password only your team knows.
 1. If you can't log in, pick another instance
 1. If there are none left, write lasse.folkersen@regionh.dk then we start some more.
 1. If you completely mess up your instance, write lasse.folkersen@regionh.dk and get a new one (-1 point for style).
-
-
-**Instance 1**
-
-Host IP:  ec2-34-209-241-81.us-west-2.compute.amazonaws.com
-
-Username (root!): ubuntu
-
-Password: g8$7O6#XvVYZ1IsLWnCfbsuP
-
-
-**Instance 2**
-
-Host IP:  *(not set up yet)*
-
-Username (root!): ubuntu
-
-Password: g8$7O6#XvVYZ1IsLWnCfbsuP
-
-
-**Instance 3**
-
-Host IP:  *(not set up yet)*
-
-Username (root!): ubuntu
-
-Password: g8$7O6#XvVYZ1IsLWnCfbsuP
