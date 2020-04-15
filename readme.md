@@ -80,7 +80,7 @@ The following resources will be made available.
 
 **Instance 1**
 
-Host IP:  ec2-35-164-169-143.us-west-2.compute.amazonaws.com
+Host IP:  ec2-34-209-241-81.us-west-2.compute.amazonaws.com
 
 Username (root!): ubuntu
 
@@ -93,7 +93,7 @@ Host IP:  *(not set up yet)*
 
 Username (root!): ubuntu
 
-Password: *(not set up yet)*
+Password: g8$7O6#XvVYZ1IsLWnCfbsuP
 
 
 **Instance 3**
@@ -102,4 +102,4 @@ Host IP:  *(not set up yet)*
 
 Username (root!): ubuntu
 
-Password: *(not set up yet)*
+Password: g8$7O6#XvVYZ1IsLWnCfbsuP

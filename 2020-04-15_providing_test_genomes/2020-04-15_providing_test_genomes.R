@@ -22,3 +22,5 @@ for(this_sample in take_samples){
  file.copy(this_sample, "~/data",recursive=T) 
   
 }
+
+
