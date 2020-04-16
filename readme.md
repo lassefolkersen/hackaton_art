@@ -1,15 +1,8 @@
----
-output:
-  word_document: default
-  pdf_document: default
-  html_document: default
----
-# Precision art
 
 
 ## Background
 
-On the impute.me website one of the modules is named ["kandinskify yourself"](https://www.impute.me/kandinsky/). It has been running almost since the founding on the project in 2015 and is based on [this algorithm](http://giorasimchoni.com/2017/07/30/2017-07-30-data-paintings-the-kandinsky-package/). It's  purpose is to generate a simple artwork based on randomness - but with the checksum of the users DNA as random seed. In this way the art is unique to the user themselves and will be so even on re-running of the procecessing. It has been accessed by approximately 10k users, which is ~25% of the total user base. A typical output looks like this:
+Impute.me is a personal genetics that have been providing genetic analysis since 2015. It is described in more detail [in this article](https://www.biorxiv.org/content/10.1101/861831v1). On the impute.me website one of the analysis modules is named ["kandinskify yourself"](https://www.impute.me/kandinsky/). It has been running almost since the founding on the project in 2015 and is based on [this algorithm](http://giorasimchoni.com/2017/07/30/2017-07-30-data-paintings-the-kandinsky-package/). It's  purpose is to generate a simple artwork based on randomness - but with the checksum of the users DNA as random seed. In this way the art is unique to the user themselves and will be so even on re-running of the procecessing. It has been accessed by approximately 10k users, which is ~25% of the total user base. A typical output looks like this:
 
 ![A screenshot of the output of the current kandinskify algorithm](2020-02-26_plotting_interest_levels/2020-02-26_kandinskify_screenshot.PNG)
 
@@ -77,7 +70,7 @@ The following resources will be made available.
 
 1. Each team get one instance each.
 1. Pick a random one from this [google-doc list](https://docs.google.com/document/d/1SxpWxGaoEJ472v4Wscfy56g9CTE0BoILpr6iuWFN_58/edit?usp=sharing). You may leave a comment to say it's taken.
-1. Log in using the info (if in doubt how, then use free [mobaxterm](https://www.youtube.com/watch?v=Diq9-b239vo)).
+1. Log in using the info, e.g write `ssh ubuntu@[address]` (if in doubt how, then use free [mobaxterm](https://www.youtube.com/watch?v=Diq9-b239vo)).
 1. Immediately change password using command `sudo passwd ubuntu`. Choose password only your team knows.
 1. If you can't log in, pick another instance
 1. If there are none left, write lasse.folkersen@regionh.dk then we start some more.
