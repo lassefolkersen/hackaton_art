@@ -47,7 +47,7 @@ or [this](https://github.com/gsurma/image_generator/blob/master/ImageGeneratorDC
 For work-package 2, the task involves setting up (in R/Shiny) a simple interface that can collect user-input given on each image as e.g. thumps up or thumbs down. With that in hand, as well as the complete set of derived DNA-calculations from impute.me, it should be possible to train the image-selector such that it can optimize the count of thumps up scores. If this is achieved the module will become the worlds first _precision art_ module. Within the scope of work-package 2, test data running is enough, leaving room...
 
 
-For work-package 3: which simply is the real-life implementation in impute.me including collection of user feedback and continous automated improvement of image-selection algorithms.
+For work-package 3: the task is real-life implementation in impute.me including collection of user feedback and continous automated improvement of image-selection algorithms. This is obviously not possible to do within the time frame of the Hackathon, but it is a good goal to have in mind - and 51 test user profiles are provided towards testing this.
 
 
 The sole criteria for evaluating success of this project is the same as with any art project: ability to catch interest of viewers. As such, these work-packages should only be seen as suggested guidelines. 
