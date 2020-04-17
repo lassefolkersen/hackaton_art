@@ -4,7 +4,7 @@
 
 Impute.me is a web-app that provides genetic analysis. It is described in more detail [in this article](https://www.biorxiv.org/content/10.1101/861831v1). At impute.me one of the analysis modules is named ["kandinskify yourself"](https://www.impute.me/kandinsky/). It has been running almost since the founding of the project in 2015 and is based on [this algorithm](http://giorasimchoni.com/2017/07/30/2017-07-30-data-paintings-the-kandinsky-package/). It's  purpose is to generate a simple artwork based on randomness - but with the checksum of the users DNA as random seed. In this way the art is unique to the user themselves and will be so even on re-running of the procecessing. It has been accessed by approximately 10k users, which is ~25% of the total user base. A typical output looks like this:
 
-![A screenshot of the output of the current kandinskify algorithm](2020-02-26_plotting_interest_levels/2020-02-26_kandinskify_screenshot.PNG)
+![A screenshot of the output of the current kandinskify algorithm](https://i.imgur.com/HCsMMO7.png)
 
 
 Since 2019 an additional plugin have performed the same, but with written poetry based on [this algorithm](https://github.com/schollz/poetry-generator), such as this example.
@@ -28,7 +28,7 @@ The technical implementation of both these is fairly simple ([script](https://gi
 
 
 The results of the survey is now available and came out in favour of option 2:
-![Results of survey of users of the kandinskify module](2020-02-26_plotting_interest_levels/2020-02-26_survey_results.png)
+![Results of survey of users of the kandinskify module](https://i.imgur.com/1fQgNpL.png)
 
 It is therefore of interest to expand on this into a module that will be called the  _precision art_ module.
 
