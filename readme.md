@@ -9,14 +9,10 @@ Impute.me is a web-app that provides genetic analysis. It is described in more d
 
 Since 2019 an additional plugin have performed the same, but with written poetry based on [this algorithm](https://github.com/schollz/poetry-generator), such as this example.
 
-<sup><sub>
-Realized dashing rose from palm tree leaf to harrowing wind,  
-hidden doors drawn by many channels, a  
-neurotic ripple begins to seize.  
-But I should be untrue to genetics, scratching among its inevitable methylation sites  
-so let us attempt to tell a story without pathway redundancies.  
+> Realized dashing rose from palm tree leaf to harrowing wind,  
+> hidden doors drawn by many channels, a  
+> neurotic ripple begins to seize.  
 An algorithm reading your genome, 2020-02-06
-</sup></sub>
 
 
 The technical implementation of both these is fairly simple ([script](https://github.com/lassefolkersen/impute-me/blob/master/kandinsky/server.R)) and is only based on the property of DNA-information as a random seed. This can be improved. For this reason we launched a user survey in summer 2019 posing the following four choices
