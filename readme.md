@@ -1,4 +1,12 @@
 
+## Challenge Overview
+The human genome consists of 3.15 billion base pairs. If printed out on paper, it would stand 130m tall. Lasse Folkersen challenges participants to explore creative ways of visualizing human genomes and to make unique art pieces influenced by the underlying DNA sequence.
+
+Teams choosing this challenge are expected to creatively use cutting-edge methods, such as generative adversarial networks (GANs). Success is evaluated by the same metric as modern art: it has to catch the attention of the viewers!
+
+## About the mentor
+Lasse Folkersen, Lead Scientist at Skt Hans Hospital Author of "[Forstå dit DNA](https://filo.dk/products/forsta-dit-dna-en-guide)" ([Understand your DNA](https://www.worldscientific.com/worldscibooks/10.1142/11070)) Twitter: [@lassefolkersen](https://twitter.com/lassefolkersen)
+
 
 ## Background
 
@@ -33,7 +41,9 @@ It is therefore of interest to expand on this into a module that will be called 
 
 ## Suggested implementation
 
-The main criteria of success is to showcase modern image machine learning algorithms and how they can function with genetics. In other words - if it is interesting, it is appropriate. A little more detailed setup idea consist of two separate work packages. A work-package 1 which expands the scope of pictures generated using [GAN](https://en.wikipedia.org/wiki/Generative_adversarial_network)-approaches and a work-package 2 which trains the outputting generator based on genetic information and user-feedback such that it can generate images that are increasingly liked by people, as deducted from their DNA information. 
+The main criteria of success is to showcase modern image machine learning algorithms and how they can function with genetics. In other words - if it is interesting, it is appropriate. 
+
+A little more detailed setup idea consist of three separate work packages. A work-package 1 which expands the scope of pictures generated using [GAN](https://en.wikipedia.org/wiki/Generative_adversarial_network)-approaches and a work-package 2 which trains the outputting generator based on genetic information and user-feedback such that it can generate images that are increasingly liked by people, as deducted from their DNA information. The third work package is then to setup and collect user input to train WP 1 and 2.
 
 
 For work-package 1, many interesting approaches are outlined online, e.g. [this](https://github.com/robbiebarrat/art-DCGAN), [this](https://towardsdatascience.com/image-generator-drawing-cartoons-with-generative-adversarial-networks-45e814ca9b6b), [this](https://towardsdatascience.com/generative-adversarial-networks-gans-2231c5943b11), 
@@ -43,7 +53,7 @@ or [this](https://github.com/gsurma/image_generator/blob/master/ImageGeneratorDC
 For work-package 2, the task involves setting up (in R/Shiny) a simple interface that can collect user-input given on each image as e.g. thumps up or thumbs down. With that in hand, as well as the complete set of derived DNA-calculations from impute.me, it should be possible to train the image-selector such that it can optimize the count of thumps up scores. If this is achieved the module will become the worlds first _precision art_ module. Within the scope of work-package 2, test data running is enough, leaving room...
 
 
-For work-package 3: the task is real-life implementation in impute.me including collection of user feedback and continous automated improvement of image-selection algorithms. This is obviously not possible to do within the time frame of the Hackathon, but it is a good goal to have in mind - and 51 test user profiles are provided towards testing this.
+For work-package 3: the task is real-life implementation in impute.me including collection of user feedback and continous automated improvement of image-selection algorithms. This is obviously not possible to do within the time frame of the Hackathon, but it is a goal to have in mind - and 51 test user profiles are provided towards testing.
 
 
 The sole criteria for evaluating success of this project is the same as with any art project: ability to catch interest of viewers. As such, these work-packages should only be seen as suggested guidelines. 
